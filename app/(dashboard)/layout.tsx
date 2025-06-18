@@ -1,16 +1,17 @@
 import { ReactNode } from "react"
 
-type AdminLayoutProps = {
+type DashboardLayout = {
     children: ReactNode;
 };
 
-export default function AdminLayout ({children} : AdminLayoutProps)  {
+export default function DashboarLayout ({children} : DashboardLayout)  {
     return(
         <main>
             <header>
-                ini Header admin
+                ini dashborad
             </header>
                 {children}
         </main>
     )
 }
+

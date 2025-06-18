@@ -25,18 +25,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
       <header>
-        ini header Home
+        ini header
         <nav>
-          Ini navbar
-          <br />
-          <Link href='/'> Home</Link>
-          <Link href='/about'>About</Link>
-          <Link href="/products">Products</Link>
+          Ini navbar 
+          <Link href='/'> | Home |</Link> 
+          <Link href='/about'> About |</Link>
+          <Link href="/products"> Products |</Link>
         </nav>
       </header>
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <main>
         {children}
+      </main>
+      <footer>
+        Footer
+      </footer>
       </body>
     </html>
   );

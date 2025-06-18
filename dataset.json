@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop Asus ROG",
+      "description": "Gaming laptop with RTX 4060",
+      "price": 25000000
+    },
+    {
+      "id": 2,
+      "name": "Monitor Samsung 27\"",
+      "description": "Full HD IPS monitor",
+      "price": 3200000
+    },
+    {
+      "id": 3,
+      "name": "Keyboard Mechanical",
+      "description": "RGB mechanical keyboard",
+      "price": 750000
+    }
+  ]
+}

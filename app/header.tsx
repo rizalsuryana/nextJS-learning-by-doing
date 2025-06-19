@@ -24,7 +24,7 @@ export async function Header() {
           <Link href='/'> | Home |</Link> 
           <Link href='/about'> About |</Link>
           <Link href="/products"> Products |</Link>
-          <Link href="/post"> Post |</Link>
+          <Link href="/posts"> Post |</Link>
         </nav>
       </header>
   );

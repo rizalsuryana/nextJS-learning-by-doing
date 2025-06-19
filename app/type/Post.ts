@@ -1,6 +1,6 @@
 export  type PostProps = {
-    id: string,
+    id?: string,
     slug: string,
     title: string,
-    Content: string,
+    content: string,
 }

@@ -1,4 +1,4 @@
-import ProductForm from '@/components/ProductForm';
+import ProductForm from '@/components/products/ProductForm';
 import { getProduct, updateProduct } from '@/lib/api/products';
 import { redirect } from 'next/navigation';
 

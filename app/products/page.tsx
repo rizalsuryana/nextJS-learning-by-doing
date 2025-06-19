@@ -1,5 +1,5 @@
 import { getProducts } from "@/lib/api/products";
-import ProductList from "@/components/ProductList";
+import ProductList from "@/components/products/ProductList";
 import Link from "next/link";
 
 export default async function ProductsPage() {

@@ -16,5 +16,17 @@
       "price": 10000,
       "id": "8bf9"
     }
-  ]
+  ],
+      "posts": [
+        {
+           "id": "1", "slug": "post-1", "title": "Post 1", "content": "Content Post 1"
+        },
+        {
+           "id": "2", "slug": "post-2", "title": "Post 2", "content": "Content Post 2"
+        }
+    ],
+
+    "settings": {
+        "siteName": "Rizal Blog"
+    }
 }
